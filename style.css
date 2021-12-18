@@ -4,7 +4,27 @@
 body{
 background-size: cover;
 height: 1200px;
-width: 1920px;
 background-image: url("Baggrund.jpeg");
+	
 }
-
+.Events {
+	position: absolute;
+	right: 70px;
+	top: 307px;
+}
+.Featured {
+	position: absolute;
+	left: 70px;
+	top: 307px;
+}
+.NavBar{
+	position: absolute;
+  	top: 98px;
+	left: 70px;
+  	width: 1300px;
+}
+.Logo{
+	position: absolute;
+	left:80px;
+	top:68px;
+}
