@@ -7,15 +7,92 @@ height: 1200px;
 background-image: url("Baggrund.jpeg");
 	
 }
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color:black;
+}
+a:hover {
+	text-decoration: underline;
+}
+h1{
+font-size: 22px;
+color: white;
+font-family: 'Helvetica Neue';
+font-weight: 200;
+}
+
+h2{
+font-size: 22px;
+color: black;
+font-family: 'Helvetica Neue';
+font-weight: 200;	
+}
+
+p{
+font-size: 16px;
+color: black;
+font-family: 'Helvetica Neue';
+font-weight: 200;	
+}
+
+.AstroText{
+	position: absolute;
+	left: 93px;
+	top:810px;
+	width: 503px;
+	word-wrap: break-word;
+	
+}
+
+.Title{
+	position: absolute;
+	left: 93px;
+	top:740px;
+	width: 364px;
+	word-wrap: break-word;
+	
+}
+.Recent{
+	position: absolute;
+	left:69px;
+	top:690px;
+}
+
+.FeaturedBlank{
+	position: absolute;
+	left: 82px;
+	top: 242px;
+}
+.UpEvents{
+	position: absolute;
+	left: 1124px;
+	top: 242px;
+}
 .Events {
 	position: absolute;
 	right: 70px;
-	top: 307px;
+	top: 248px;
 }
 .Featured {
 	position: absolute;
 	left: 70px;
-	top: 307px;
+	top: 248px;
+}
+.Astronauts{
+	position: absolute;
+	left:618px;
+	top:765px;
+	
+}
+.News{
+	position: absolute;
+	left: 70px;
+	top: 740px;
+}
+.Read{
+	position: absolute;
+	left: 93px;
+	top:1000px;
 }
 .NavBar{
 	position: absolute;
