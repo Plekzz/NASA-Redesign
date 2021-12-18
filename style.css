@@ -1,4 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
-background-image: url('');
+body{
+background-size: cover;
+height: 1200px;
+background-image: url("Baggrund.jpeg");
+
+}
