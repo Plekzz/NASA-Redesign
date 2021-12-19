@@ -28,11 +28,11 @@ font-family: 'Helvetica Neue';
 font-weight: 200;	
 }
 
-p{
-font-size: 16px;
-color: black;
-font-family: 'Helvetica Neue';
-font-weight: 200;	
+.AstroText, p{
+	font-size: 16px;
+	color: black;
+	font-family: 'Helvetica Neue';
+	font-weight: 200;	
 }
 
 .AstroText{
@@ -70,7 +70,7 @@ font-weight: 200;
 }
 .Events {
 	position: absolute;
-	right: 70px;
+	left: 1112px;
 	top: 248px;
 }
 .Featured {
@@ -105,3 +105,56 @@ font-weight: 200;
 	left:80px;
 	top:68px;
 }
+
+.Dropdown {
+	position: absolute;
+	top:98px;
+	left:222px;
+	height: 70px;
+
+}
+
+.Dropdown a {
+	height:30px;
+	width: 150px;
+	text-align: center;
+  	font-family: "Helvetica Neue";
+	font-weight:400;
+	font-size: 20px;
+	text-decoration: none;
+  	color: black;
+  	padding: 15px;
+  	display:inline-block;
+}
+
+ul {
+  	display: inline;
+  	margin: 0;
+  	padding: 0;
+}
+ul li {display: inline-block;}
+
+ul li :hover {
+	color:white; 
+	background: #0b3d91;
+}
+ul li:hover ul {display: block;}
+
+ul li ul {
+  	position: absolute;
+  	width: 180px;
+  	display: none;
+}
+ul li ul li a { 
+  	background: #0b3d91;
+  	display:block;
+  }
+/*Sætter links (a) standard farve til hvid*/
+.Dropdown ul li ul li a { 
+	color:white;
+	font-weight: 300;
+
+}
+
+ul li ul li a {display:block !important;} 
+ul li ul li :hover {background: #061f4a;}
