@@ -120,7 +120,7 @@ font-weight: 200;
 
 .Date {
 	position: absolute;
-	left:100px;
+	left:106px;
 	top:255px;
 }
 .BigTitle h1 {
@@ -130,10 +130,16 @@ font-weight: 200;
 }
 .BigTitle {
 	position: absolute;
-	left:100px;
+	left:106px;
 	top:280px;
 	width: 550px;
 	word-wrap: break-word;
+}
+
+.Picture{
+	position: absolute;
+	left:106px;
+	top:390px;
 }
 
 .Dropdown {
