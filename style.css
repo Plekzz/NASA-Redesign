@@ -20,6 +20,7 @@ body{
 background-size: cover;
 height: 1200px;
 background-image: url("Baggrund.jpeg");
+background-repeat: no-repeat;
 	
 }
 a:link, a:visited, a:active {
@@ -28,6 +29,7 @@ a:link, a:visited, a:active {
 }
 a:hover {
 	text-decoration: underline;
+	cursor: pointer;
 }
 h1{
 font-size: 22px;
@@ -77,6 +79,42 @@ font-weight: 200;
 	position: absolute;
 	left: 82px;
 	top: 242px;
+}
+.ISSPIC{
+	position: absolute;
+	left: 100px;
+	top: 340px;
+}
+.ISSTitle h1{color:black;}
+
+.ISSTitle{
+	position: absolute;
+	left:100px;
+	top:295px;
+}
+
+.ISSDesc{
+	position: absolute;
+	left:100px;
+	top:580px;
+
+}
+.ArtemisTitle h1{color:black;}
+
+.ArtemisTitle{
+	position: absolute;
+	left:597px;
+	top:295px;
+}
+.ArtemisDesc{
+	position: absolute;
+	left:597px;
+	top:580px;
+}
+.ArtemisPic{
+	position: absolute;
+	left: 597px;
+	top: 340px;
 }
 .UpEvents{
 	position: absolute;
