@@ -1,5 +1,20 @@
 @charset "UTF-8";
-/* CSS Document */
+@media screen and (min-width:1919px) {
+	
+	.MainBody{
+	position: relative;
+	left:230px;
+}
+
+	.MainNav{
+	position: relative;
+	left:230px;
+}
+	.MainArticle{
+	position: relative;
+	left: 230px;
+	}
+}
 
 body{
 background-size: cover;
