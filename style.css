@@ -296,7 +296,7 @@ ul li ul li a {
 /*Sætter links (a) standard farve til hvid*/
 .Dropdown ul li ul li a { 
 	color:white;
-	font-weight: 300;
+	font-weight: 200;
 }
 /*Bestemmer at mine forskellige punkter i navigationsbaren skal ændre baggrundsfarve når jeg holder musen henover dem*/
 ul li ul li :hover {background: #061f4a;}
