@@ -1,15 +1,17 @@
 @charset "UTF-8";
 @media screen and (min-width:1919px) {
-	
+	/*Rykker alt nedenunder min NavBar i index.html relativt til deres tidligere position*/
 	.MainBody{
 	position: relative;
 	left:230px;
 	top:-20px;
 }
+	/*Rykker alt min NavBar i både index.html og Astronauts.html relativt til dens tidligere position*/
 	.MainNav{
 	position: relative;
 	left:230px;
 }
+	/*Rykker alt nedenunder min NavBar i Astronauts.html relativt til deres tidligere position*/
 	.MainArticle{
 	position: relative;
 	left: 230px;
@@ -17,38 +19,44 @@
 }
 
 }
-
+/*indsætter et baggrundsbillede som dækker hele skærmen og har en højde på 1200 pixels*/
 body{
 	background-size: cover;
 	height: 1200px;
 	background-image: url("Baggrund.jpeg");	
 }
+/*styler mine links sådan at de ikke har nogen dekoration og er sorte*/
 a:link, a:visited, a:active {
 	text-decoration: none;
 	color:black;
 }
+/*gør sådan at links får en understreg for at indikere interaktion og gør sådan at musen viser en pointer når man holder den henover et link for yderligere hint til interaktion*/
 a:hover {
 	text-decoration: underline;
 	cursor: pointer;
 }
+/*bestemmer styling for alle mine Header 1, jeg går dog ind og ændre det specifikt i andre h1 hvor det er trangt*/
 h1{
 	font-size: 22px;
 	color: white;
 	font-family: 'Helvetica Neue', 'Arial';
 	font-weight: 200;
 }
+/*bestemmer styling for alle mine Header 2, jeg går dog ind og ændre det specifikt i andre h2 hvor det er trangt*/
 h2{
 	font-size: 22px;
 	color: black;
 	font-family: 'Helvetica Neue', 'Arial';
 	font-weight: 200;	
 }
+/*styler min paragraf tekst i min intro til nyheden om astronauter*/
 .AstroText, p{
 	font-size: 16px;
 	color: black;
 	font-family: 'Helvetica Neue', 'Arial';
 	font-weight: 200;	
 }
+/*positionere introen og gør sådan at den starter en ny sætning efter 503 pixels*/
 .AstroText{
 	position: absolute;
 	left: 93px;
@@ -57,6 +65,7 @@ h2{
 	word-wrap: break-word;
 	
 }
+/*positionere min titel til nyheds som blev stylet oppe ved h1. Skiller også sætningen hvis den går ud over de 364 pixels*/
 .Title{
 	position: absolute;
 	left: 93px;
@@ -64,158 +73,183 @@ h2{
 	width: 364px;
 	word-wrap: break-word;	
 }
+/*positionere min Recent News h2*/
 .Recent{
 	position: absolute;
 	left:69px;
 	top:690px;
 }
-.FeaturedBlank{
+/*positionere min featured stories titel*/
+.FeaturedText{
 	position: absolute;
 	left: 82px;
 	top: 242px;
 }
+/*positionere billedet af Den Internationale Rumstation*/
 .ISSPIC{
 	position: absolute;
 	left: 100px;
 	top: 340px;
 }
-
+/*Eksempel på hvor jeg ændre en h1 fra den oprindelige styling, her gør jeg farven sort i stedet for hvid*/
 .ISSTitle h1{color:black;}
-
+/*positionere titlen til ISS artiklen*/
 .ISSTitle{
 	position: absolute;
 	left:100px;
 	top:295px;
 }
+/*positionere den korte beskrivelse under ISS billedet*/
 .ISSDesc{
 	position: absolute;
 	left:100px;
 	top:580px;
 }
-
+/*samme som .ISSTitle styling, ændre farven fra hvid til sort*/
 .ArtemisTitle h1{color:black;}
-
+/*positionere titlen til Artemis artiklen*/
 .ArtemisTitle{
 	position: absolute;
 	left:597px;
 	top:295px;
 }
+/*positionere den korte beskrivelse under Artemis billedet*/
 .ArtemisDesc{
 	position: absolute;
 	left:597px;
 	top:580px;
 }
+/*positionere billedet af månen*/
 .ArtemisPic{
 	position: absolute;
 	left: 597px;
 	top: 340px;
 }
+/*positionere kassen til Upcoming Events*/
 .UpEvents{
 	position: absolute;
 	left: 1124px;
 	top: 242px;
 }
+/*positionere titlen til Upcoming Events*/
 .Events {
 	position: absolute;
 	left: 1112px;
 	top: 248px;
 }
+/*giver styling til min event paragraf og giver den en cursor event som er en pointer for at hinte til interation*/
 .EventsText p{
 	font-size:15px;
 	border-bottom:1px solid black;
 	cursor: pointer;
-	
 }
+/*positionere teksten til Upcoming Events og bryder sætningen udenfor 240 pixels*/
 .EventsText{
 	position: absolute;
 	left:1122px;
 	top:282px;
 	word-wrap: break-word;
 	width: 240px;
-	
 }
+/*positionere min featured kasse*/
 .Featured {
 	position: absolute;
 	left: 70px;
 	top: 248px;
 }
+/*positionere billedet af astronauterne*/
 .Astronauts{
 	position: absolute;
 	left:618px;
 	top:765px;	
 }
+/*positionere baggrunden til nyheden*/
 .News{
 	position: absolute;
 	left: 70px;
 	top: 740px;
 }
+/*positionere knappen til Read More*/
 .Read{
 	position: absolute;
 	left: 93px;
 	top:1000px;
 }
+/*giver Read More attributen og teksten en hvid farve*/
 .ReadMore a{
 	color:white;
 }
+/*positionere Read More teksten*/
 .ReadMore{
 	position: absolute;
 	left: 107px;
 	top:996px;
 }
+/*positionere og bestemmer bredde på NavBar baggrunden*/
 .NavBar{
 	position: absolute;
   	top: 98px;
 	left: 70px;
   	width: 1300px;
 }
+/*flytter logoet*/
 .Logo{
 	position: absolute;
 	left:80px;
 	top:68px;
 }
+/*flytter på historik baren*/
 .SmallNav{
 	position: absolute;
 	left:70px;
 	top:218px;
 }
+/*farver Humans in Space teksten hvid og positionere den*/
 .HumansInSpace p{color:white;}
 .HumansInSpace{
 	position: absolute;
 	left:220px;
 	top:208px;	
 }
+/*farver Topics teksten hvid og positionere den*/
 .Topics p{color:white;}
 .Topics{
 	position: absolute;
 	left:153px;
 	top:208px;	
 }
+/*farver Home teksten hvid og positionere den*/
 .Home a{color:white;}
 .Home{
 	position: absolute;
 	left:80px;
 	top:208px;
 }
+/*flytter på baggrunden til artiklen*/
 .Article{
 	position: absolute;
 	top:98px;
 	left:70px;	
 }
+/*flytter på kassen til Related*/
 .Related{
 	position: absolute;
 	left: 1124px;
 	top: 242px;
 }
+/*positionere datoen for artiklen*/
 .Date {
 	position: absolute;
 	left:106px;
 	top:255px;
 }
+/*styler artikel titlen*/
 .BigTitle h1 {
 	color:black;
 	font-weight: 500;
 	font-size:28px;
 }
+/*flytter på artikel titlen og bryder den efter 550 pixels */
 .BigTitle {
 	position: absolute;
 	left:106px;
@@ -223,11 +257,13 @@ h2{
 	width: 550px;
 	word-wrap: break-word;
 }
+/*flytter på det store billede i artiklen*/
 .Picture{
 	position: absolute;
 	left:106px;
 	top:390px;
 }
+/*flytter på billede beskrivelsen og bryder sætningen efter 932 pixels hvilket er den samme bredde som billedet*/
 .PicDesc{
 	position: absolute;
 	left:106px;
@@ -235,14 +271,17 @@ h2{
 	word-wrap: break-word;
 	width: 932px;
 }
+/*styler billede beskrivelsen*/
 .PicDesc p{
 	line-height: 1.4;
 	font-size:12px;
 }
+/*styler billede beskrivelsen*/
 .Credit p {
 	line-height: .1;
 	font-weight:500;
 }
+/*flytter selve artiklen og bryder den efter 932 pixels*/
 .Body{
 	position: absolute;
 	left:106px;
@@ -250,12 +289,14 @@ h2{
 	word-wrap: break-word;
 	width: 932px;
 }
+/*flytter på dropdown menuen og bestemmer dens højde*/
 .Dropdown {
 	position: absolute;
 	top:98px;
 	left:222px;
 	height: 70px;
 }
+/*styler alle links i dropdown menuen*/
 .Dropdown a {
 	height:30px;
 	width: 150px;
