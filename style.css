@@ -154,6 +154,14 @@ h2{
 	left: 93px;
 	top:1000px;
 }
+.ReadMore a{
+	color:white;
+}
+.ReadMore{
+	position: absolute;
+	left: 107px;
+	top:996px;
+}
 .NavBar{
 	position: absolute;
   	top: 98px;
@@ -169,6 +177,24 @@ h2{
 	position: absolute;
 	left:70px;
 	top:218px;
+}
+.HumansInSpace p{color:white;}
+.HumansInSpace{
+	position: absolute;
+	left:220px;
+	top:208px;	
+}
+.Topics p{color:white;}
+.Topics{
+	position: absolute;
+	left:153px;
+	top:208px;	
+}
+.Home a{color:white;}
+.Home{
+	position: absolute;
+	left:80px;
+	top:208px;
 }
 .Article{
 	position: absolute;
