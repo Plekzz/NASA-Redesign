@@ -17,8 +17,8 @@
 	left: 230px;
 	top:-20px;
 }
-
 }
+
 /*indsætter et baggrundsbillede som dækker hele skærmen og har en højde på 1200 pixels*/
 body{
 	background-size: cover;
@@ -62,8 +62,33 @@ h2{
 	left: 93px;
 	top:810px;
 	width: 503px;
+	word-wrap: break-word;	
+}
+.ISSText, p{
+	font-size: 16px;
+	color: black;
+	font-family: 'Helvetica Neue', 'Arial';
+	font-weight: 200;	
+}
+.ISSText{
+	position: absolute;
+	left: 93px;
+	top:1170px;
+	width: 503px;
 	word-wrap: break-word;
-	
+}
+.SunText, p{
+	font-size: 16px;
+	color: black;
+	font-family: 'Helvetica Neue', 'Arial';
+	font-weight: 200;	
+}
+.SunText{
+	position: absolute;
+	left: 93px;
+	top:1530px;
+	width: 503px;
+	word-wrap: break-word;
 }
 /*positionere min titel til nyheds som blev stylet oppe ved h1. Skiller også sætningen hvis den går ud over de 364 pixels*/
 .Title{
@@ -71,6 +96,20 @@ h2{
 	left: 93px;
 	top:740px;
 	width: 364px;
+	word-wrap: break-word;	
+}
+.Title2{
+	position: absolute;
+	left: 93px;
+	top:1100px;
+	width: 384px;
+	word-wrap: break-word;	
+}
+.Title3{
+	position: absolute;
+	left: 93px;
+	top:1460px;
+	width: 503px;
 	word-wrap: break-word;	
 }
 /*positionere min Recent News h2*/
@@ -143,6 +182,10 @@ h2{
 	border-bottom:1px solid black;
 	cursor: pointer;
 }
+.RelatedText p{
+	font-size:15px;
+	cursor: pointer;
+}
 /*positionere teksten til Upcoming Events og bryder sætningen udenfor 240 pixels*/
 .EventsText{
 	position: absolute;
@@ -151,23 +194,59 @@ h2{
 	word-wrap: break-word;
 	width: 240px;
 }
+.RelatedText{
+	position: absolute;
+	left:1122px;
+	top:282px;
+	word-wrap: break-word;
+	width: 240px;
+}
+.RelatedDate p{
+	font-size:15px;
+	padding-bottom: 10px;
+	border-bottom:1px solid black;
+	cursor: pointer;
+	line-height: 0.8px;
+}
+
 /*positionere min featured kasse*/
 .Featured {
 	position: absolute;
 	left: 70px;
 	top: 248px;
 }
-/*positionere billedet af astronauterne*/
+/*positionere billedet af astronauterne/ISS/Solen*/
 .Astronauts{
 	position: absolute;
 	left:618px;
 	top:765px;	
 }
+.ISS{
+	position: absolute;
+	left:618px;
+	top:1125px;	
+}
+.Sun{
+	position: absolute;
+	left:618px;
+	top:1485px;	
+}
 /*positionere baggrunden til nyheden*/
 .News{
 	position: absolute;
+	left:70px;
+	top:740px;
+}
+
+.News2{
+	position: absolute;
 	left: 70px;
-	top: 740px;
+	top: 1100px;
+}
+.News3{
+	position: absolute;
+	left: 70px;
+	top: 1460px;
 }
 /*positionere knappen til Read More*/
 .Read{
@@ -175,15 +254,42 @@ h2{
 	left: 93px;
 	top:1000px;
 }
+.Read2{
+	position: absolute;
+	left: 93px;
+	top: 1360px;
+}
+.Read3{
+	position: absolute;
+	left: 93px;
+	top: 1720px;
+}
 /*giver Read More attributen og teksten en hvid farve*/
 .ReadMore a{
 	color:white;
 }
+.ReadMore2 a{
+	color:white;
+}
+.ReadMore3 a{
+	color:white;
+}
+
 /*positionere Read More teksten*/
 .ReadMore{
 	position: absolute;
 	left: 107px;
 	top:996px;
+}
+.ReadMore2{
+	position: absolute;
+	left: 107px;
+	top:1356px;
+}
+.ReadMore3{
+	position: absolute;
+	left: 107px;
+	top:1716px;
 }
 /*positionere og bestemmer bredde på NavBar baggrunden*/
 .NavBar{
