@@ -118,6 +118,61 @@ h2{
 	left:69px;
 	top:690px;
 }
+.SocialsTitle{
+	position: absolute;
+	left:1112px;
+	top:690px;
+}
+.TwitterBox{
+	position: absolute;
+	top:740px;
+	left:1112px;
+}
+.Twitter{
+	position: absolute;
+	top:755px;
+	left:1122px;
+}
+.FacebookBox{
+	position: absolute;
+	top:740px;
+	left:1205px;
+}
+.Facebook{
+	position: absolute;
+	top:750px;
+	left:1215px;	
+}
+.YoutubeBox{
+	position: absolute;
+	top:740px;
+	left:1299px;	
+}
+.Youtube{
+	position: absolute;
+	top:757px;
+	left:1309px;
+}
+.InstagramBox{
+	position: absolute;
+	top:832px;
+	left:1112px;	
+}
+.Instagram{
+	position: absolute;
+	top:842px;
+	left:1122px;
+}
+.RedditBox{
+	position: absolute;
+	top:832px;
+	left:1205px;	
+}
+.Reddit{
+	position: absolute;
+	top:842px;
+	left:1215px;	
+}
 /*positionere min featured stories titel*/
 .FeaturedText{
 	position: absolute;
